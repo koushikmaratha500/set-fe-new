@@ -18,6 +18,7 @@ import { SecondGradeComponent } from './pages/second-grade/second-grade.componen
 import { FifthGradeComponent } from './pages/fifth-grade/fifth-grade.component';
 import { FourthGradeComponent } from './pages/fourth-grade/fourth-grade.component';
 import { ThirdGradeComponent } from './pages/third-grade/third-grade.component';
+import {FirstgradeVideosComponent} from './pages/firstgrade-videos/firstgrade-videos.component';
 // pages Secondary
 import { Class6Component } from './pages/class-6/class-6.component';
 import { Class7Component } from './pages/class-7/class-7.component';
@@ -75,6 +76,6 @@ export const routes: Routes = [
     { path: 'neet', component: ExamsNeetComponent },
     { path: 'aiims', component: ExamsAiimsComponent },
     { path: 'ap-eamcet', component: ExamsApEamcetComponent },
-    { path: 'ts-eamcet', component: ExamsTsEamcetComponent },
+    { path: 'ts-eamcet', component: ExamsTsEamcetComponent },                                              },
     { path: '*', redirectTo: '/login' }
 ];
