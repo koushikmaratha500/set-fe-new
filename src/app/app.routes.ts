@@ -14,17 +14,26 @@ import { GameDevelopmentComponent } from './pages/game-development/game-developm
 import { IitFoundationComponent } from './pages/iit-foundation/iit-foundation.component';
 // Pages Primary
 import { FirstGradeComponent } from './pages/first-grade/first-grade.component';
+import { FirstgradeVideosComponent } from './pages/first-grade/firstgrade-videos/firstgrade-videos.component';
 import { SecondGradeComponent } from './pages/second-grade/second-grade.component';
+import { SecondgradeVideosComponent } from './pages/second-grade/secondgrade-videos/secondgrade-videos.component';
 import { FifthGradeComponent } from './pages/fifth-grade/fifth-grade.component';
+import { FifthgradeVideosComponent } from './pages/fifth-grade/fifthgrade-videos/fifthgrade-videos.component';
 import { FourthGradeComponent } from './pages/fourth-grade/fourth-grade.component';
+import { FourthgradeVideosComponent } from './pages/fourth-grade/fourthgrade-videos/fourthgrade-videos.component';
 import { ThirdGradeComponent } from './pages/third-grade/third-grade.component';
-import {FirstgradeVideosComponent} from './pages/firstgrade-videos/firstgrade-videos.component';
+import { ThirdgradeVideosComponent } from './pages/third-grade/thirdgrade-videos/thirdgrade-videos.component';
 // pages Secondary
 import { Class6Component } from './pages/class-6/class-6.component';
+import { Class6SyllabusComponent } from './pages/class-6/class6-syllabus/class6-syllabus.component';
 import { Class7Component } from './pages/class-7/class-7.component';
+import { Class7SyllabusComponent } from './pages/class-7/class7-syllabus/class7-syllabus.component';
 import { Class8Component } from './pages/class-8/class-8.component';
+import { Class8SyllabusComponent } from './pages/class-8/class8-syllabus/class8-syllabus.component';
 import { Class9Component } from './pages/class-9/class-9.component';
+import { Class9SyllabusComponent } from './pages/class-9/class9-syllabus/class9-syllabus.component';
 import { Class10Component } from './pages/class-10/class-10.component';
+import { Class10SyllabusComponent } from './pages/class-10/class10-syllabus/class10-syllabus.component';
 // pages Secondary boards
 import { CbseBoardComponent } from './pages/cbse-board/cbse-board.component';
 import { AndhraBoardComponent } from './pages/andhra-board/andhra-board.component';
@@ -55,15 +64,25 @@ export const routes: Routes = [
     { path: 'game-development', component: GameDevelopmentComponent },
     { path: 'iit-foundation', component: IitFoundationComponent },
     { path: 'first-grade', component: FirstGradeComponent },
+    { path: 'first-grade/videos', component: FifthgradeVideosComponent },
     { path: 'second-grade', component: SecondGradeComponent },
+    { path: 'second-grade/videos', component: SecondgradeVideosComponent },
     { path: 'third-grade', component: ThirdGradeComponent },
+    { path: 'third-grade/videos', component: ThirdgradeVideosComponent },
     { path: 'fourth-grade', component: FourthGradeComponent },
+    { path: 'fourth-grade/videos', component: FourthgradeVideosComponent },
     { path: 'fifth-grade', component: FifthGradeComponent },
+    { path: 'fifth-grade/videos', component: FifthgradeVideosComponent },
     { path: 'class-6', component: Class6Component },
+    { path: 'class-6/syllabus', component: Class6SyllabusComponent },
     { path: 'class-7', component: Class7Component },
+    { path: 'class-7/syllabus', component: Class7SyllabusComponent },
     { path: 'class-8', component: Class8Component },
+    { path: 'class-8/syllabus', component: Class8SyllabusComponent },
     { path: 'class-9', component: Class9Component },
+    { path: 'class-9/syllabus', component: Class9SyllabusComponent },
     { path: 'class-10', component: Class10Component },
+    { path: 'class-10/syllabus', component: Class10SyllabusComponent },
     { path: 'cbse-board', component: CbseBoardComponent },
     { path: 'ap-state-board', component: AndhraBoardComponent },
     { path: 'ts-state-board', component: TelanganaBoardComponent },
@@ -76,6 +95,6 @@ export const routes: Routes = [
     { path: 'neet', component: ExamsNeetComponent },
     { path: 'aiims', component: ExamsAiimsComponent },
     { path: 'ap-eamcet', component: ExamsApEamcetComponent },
-    { path: 'ts-eamcet', component: ExamsTsEamcetComponent },                                              },
+    { path: 'ts-eamcet', component: ExamsTsEamcetComponent },
     { path: '*', redirectTo: '/login' }
 ];
