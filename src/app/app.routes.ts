@@ -64,7 +64,7 @@ export const routes: Routes = [
     { path: 'game-development', component: GameDevelopmentComponent },
     { path: 'iit-foundation', component: IitFoundationComponent },
     { path: 'first-grade', component: FirstGradeComponent },
-    { path: 'first-grade/videos', component: FifthgradeVideosComponent },
+    { path: 'first-grade/videos', component: FirstgradeVideosComponent },
     { path: 'second-grade', component: SecondGradeComponent },
     { path: 'second-grade/videos', component: SecondgradeVideosComponent },
     { path: 'third-grade', component: ThirdGradeComponent },
